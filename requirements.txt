@@ -1,0 +1,45 @@
+annotated-types==0.7.0
+asgiref==3.8.1
+attrs==25.3.0
+azure-core==1.34.0
+azure-identity==1.23.0
+azure-storage-blob==12.25.1
+certifi==2025.4.26
+cffi==1.17.1
+charset-normalizer==3.4.2
+-e git+ssh://git@github.com/vilosource/cielo.git@76010d8fc423b839d629ccb24400139868b6ec41#egg=cielo
+-e git+ssh://git@github.com/vilosource/cielo_azure_billing.git@1413087684eb54e66882cf5397345c8d47a9988c#egg=cielo_azure_billing
+-e git+ssh://git@github.com/vilosource/cielo_azure_billing.git@1413087684eb54e66882cf5397345c8d47a9988c#egg=cielo.azure.cost_analysis
+cryptography==45.0.3
+Django==5.2.1
+django-filter==24.3
+django-redis==5.4.0
+djangorestframework==3.16.0
+drf-spectacular==0.28.0
+idna==3.10
+inflection==0.5.1
+isodate==0.7.2
+jsonschema==4.24.0
+jsonschema-specifications==2025.4.1
+msal==1.32.3
+msal-extensions==1.3.1
+numpy==2.2.6
+pandas==2.2.3
+pycparser==2.22
+pydantic==2.11.5
+pydantic_core==2.33.2
+PyJWT==2.10.1
+python-dateutil==2.9.0.post0
+pytz==2025.2
+PyYAML==6.0.2
+redis==6.2.0
+referencing==0.36.2
+requests==2.32.3
+rpds-py==0.25.1
+six==1.17.0
+sqlparse==0.5.3
+typing-inspection==0.4.1
+typing_extensions==4.13.2
+tzdata==2025.2
+uritemplate==4.1.1
+urllib3==2.4.0
