@@ -1,9 +1,15 @@
 from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-SECRET_KEY = 'django-insecure-change-me'
-DEBUG = True
-ALLOWED_HOSTS = []
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+# Placeholder secret key -- override this in environment specific settings
+SECRET_KEY = 'replace-me'
+
+# Safest default behaviour
+DEBUG = False
+
+# Restrictive default
+ALLOWED_HOSTS = ["127.0.0.1"]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
