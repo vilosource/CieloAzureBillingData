@@ -1,4 +1,4 @@
-# cielo\_azure\_billing - Cost Import & Analysis Django Project Specification
+# project - Cost Import & Analysis Django Project Specification
 
 ## Purpose
 
@@ -7,8 +7,8 @@ Develop a **self-contained Django project** to import daily Azure cost CSV repor
 ## Project Structure
 
 ```
-cielo_azure_billing/
-├── cielo_azure_billing/              # Django project root
+project/
+├── project/              # Django project root
 │   ├── settings.py
 │   ├── urls.py
 ├── billing/                # Main app for models and logic

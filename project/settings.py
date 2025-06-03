@@ -30,7 +30,7 @@ MIDDLEWARE = [
     'billing.middleware.RequestLoggingMiddleware',
 ]
 
-ROOT_URLCONF = 'cielo_azure_billing.urls'
+ROOT_URLCONF = 'project.urls'
 
 TEMPLATES = [
     {
@@ -48,7 +48,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'cielo_azure_billing.wsgi.application'
+WSGI_APPLICATION = 'project.wsgi.application'
 
 DATABASES = {
     'default': {
