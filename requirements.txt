@@ -3,15 +3,18 @@ asgiref==3.8.1
 attrs==25.3.0
 azure-core==1.34.0
 azure-identity==1.23.0
+azure-mgmt-compute
+azure-mgmt-network
+azure-mgmt-resource
+azure-mgmt-storage
+azure-keyvault-secrets
 azure-storage-blob==12.25.1
 certifi==2025.4.26
 cffi==1.17.1
 charset-normalizer==3.4.2
--e git+ssh://git@github.com/vilosource/cielo.git@76010d8fc423b839d629ccb24400139868b6ec41#egg=cielo
--e git+ssh://git@github.com/vilosource/cielo_azure_billing.git@1413087684eb54e66882cf5397345c8d47a9988c#egg=cielo_azure_billing
--e git+ssh://git@github.com/vilosource/cielo_azure_billing.git@1413087684eb54e66882cf5397345c8d47a9988c#egg=cielo.azure.cost_analysis
 cryptography==45.0.3
 Django==5.2.1
+django-cors-headers==4.6.0
 django-filter==24.3
 django-redis==5.4.0
 djangorestframework==3.16.0
