@@ -18,6 +18,7 @@ django-cors-headers==4.6.0
 django-filter==24.3
 django-redis==5.4.0
 djangorestframework==3.16.0
+djangorestframework-simplejwt==5.2.2
 drf-spectacular==0.28.0
 idna==3.10
 inflection==0.5.1
